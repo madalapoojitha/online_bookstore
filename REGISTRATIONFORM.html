@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="text-align: center;">Registration Form</h1>
+        <style>
+         span{
+            color: red;
+         }
+         #address{
+            height:50px;
+         }
+         input[type="radio"]{
+            vertical-align:sub;
+         }
+        </style>
+    </head>
+    <body style="border: 1px solid black; width: 1000px;height:500px;margin-left: 250px;padding-left: 50px;">
+        <form>
+            <label for="fname">first Name(Minimum 6 characters)<span>*</span></label>
+            <input type="text" id="fname"><br><br>
+            <label for="lname">Last Name<span >*</span></label>
+            <input type="text" id="lname"><br><br>
+            <label for="email">EmailAddress<span>*</span></label>
+            <input type="email" id="email">
+            <p><span>(one e-mail id only):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(38, 145, 188);"> e.g:smith@hotmail.com</span></p><br>
+            
+            <label for="password">Password(minimum 6 characters)<span>*</span></label>
+            <input type="password" id="password"><br><br>
+            <label for="address">Address<span>*</span></label>
+            <input type="text" id="address"><br><br>
+            <label for="mobileno">Mobile No<span>*</span></label>
+            <input type="text" for="mobileno"><br><br>
+            <p>Gender:
+                <input type="radio" id="male" name="gender" >
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female" >female</label>
+            <br>
+            </p>
+            <button>Submit</button>
+            <button>reset</button>
+
+
+        </form>
+    </body>
+</html>
